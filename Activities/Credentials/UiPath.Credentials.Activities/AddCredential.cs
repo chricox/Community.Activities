@@ -13,7 +13,7 @@ namespace UiPath.Credentials.Activities
 
         [RequiredArgument]
         [Category("Input")]
-        public InArgument<string> Password { get; set; }
+        public InArgument<SecureString> Password { get; set; }
 
         [RequiredArgument]
         [Category("Input")]
